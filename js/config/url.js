@@ -1,0 +1,1 @@
+export let urlAPI = "https://aufa-ulbi.herokuapp.com/proyek1";
