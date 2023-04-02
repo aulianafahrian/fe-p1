@@ -8,10 +8,10 @@ function isiRow(value) {
   let content = isiTabel
     .replace("#NAMA#", value.biodata_mahasiswa.nama)
     .replace("#NPM#", value.biodata_mahasiswa.npm)
-    .replace("#DOSENPEMBIMBING#", value)
-    .replace("#DOSENPENGUJI#", value.location)
-    .replace("#JUDUL#", value.checkin)
-    .replace("#TANGGALSIDANG#", value.biodata.hari_kerja)
+    .replace("#DOSENPEMBIMBING#", value.dosen_pembimbing.nama)
+    .replace("#DOSENPENGUJI#", value.dosen_penguji.nama)
+    .replace("#JUDUL#", value.judul)
+    .replace("#TANGGALSIDANG#", value.tanggal_sidang)
 
     .replace("#WARNA#", getRandomColor())
     .replace(/#WARNALOGO#/g, getRandomColorName());
