@@ -15,6 +15,8 @@ export let isiTabel =
             </div>
         </div>
     </th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#JURUSAN#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#PRODI#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#DOSENPEMBIMBING#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">#DOSENPENGUJI#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#JUDUL#</th>
