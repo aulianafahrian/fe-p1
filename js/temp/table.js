@@ -6,6 +6,7 @@ export let isiTabel =
             <div class="w-auto p-1">
                 <p class="text-xs font-semibold text-coolGray-800">#NAMA#</p>
             </div>
+            </br>
             <div class="w-auto p-1">
                 <p class="text-xs font-medium text-coolGray-800">#NPM#</p>
             </div>
