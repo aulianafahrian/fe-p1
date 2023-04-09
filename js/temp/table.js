@@ -38,9 +38,9 @@ export let isiTabelmhs =
             <div class="w-auto p-2">
                 <p class="text-xs font-semibold text-coolGray-800">#NAMA#</p>
             </div>
-                <p class="text-xs font-medium text-coolGray-800">#NPM#</p>
         </div>
     </th>
+    <th class="whitespace-normal px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#NPM#</th>
     <th class="whitespace-normal px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#KELAS#</th>
     <th class="whitespace-normal px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#JURUSAN#</th>
     <th class="whitespace-normal px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#PRODI#</th>
