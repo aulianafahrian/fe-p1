@@ -1,15 +1,21 @@
 export let isiTabel = 
 `
 <tr class="h-18 border-b border-coolGray-100">
-    <th class="text-left whitespace-normal px-4 bg-white">
+    <th class="whitespace-normal px-4 bg-white text-left">
         <div class="flex items-left -m-2">
             <div class="w-auto p-2">
                 <p class="text-xs font-semibold text-coolGray-800">#NAMA#</p>
-                <p class="text-left text-xs font-medium text-coolGray-800">#NPM#</p>
+                <p class="text-xs font-medium text-coolGray-800">#NPM#</p>
             </div>
         </div>
     </th>
-    <th class="whitespace-normal px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#JURUSAN#</th>
+    <th class="whitespace-normal px-4 bg-white text-left">
+        <div class="flex items-left -m-2">
+            <div class="w-auto p-2">
+                <p class="text-xs font-semibold text-coolGray-800">#JURUSAN#</p>
+            </div>
+        </div>
+    </th>
     <th class="whitespace-normal px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#PRODI#</th>
     <th class="whitespace-normal px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#DOSENPEMBIMBING#</th>
     <th class="whitespace-normal px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#DOSENPENGUJI#</th>
